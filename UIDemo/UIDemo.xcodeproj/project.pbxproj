@@ -107,8 +107,8 @@
 		2168ABDC1946FBDC00AAEE0A /* UIDemo */ = {
 			isa = PBXGroup;
 			children = (
-				2168ABE51946FBDC00AAEE0A /* YPAppDelegate.h */,
-				2168ABE61946FBDC00AAEE0A /* YPAppDelegate.m */,
+				2168AC061946FF7800AAEE0A /* AppDelegate */,
+				2168AC051946FF6B00AAEE0A /* Scenes */,
 				2168ABE81946FBDC00AAEE0A /* Images.xcassets */,
 				2168ABDD1946FBDC00AAEE0A /* Supporting Files */,
 			);
@@ -142,6 +142,22 @@
 				2168ABF81946FBDC00AAEE0A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2168AC051946FF6B00AAEE0A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		2168AC061946FF7800AAEE0A /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2168ABE61946FBDC00AAEE0A /* YPAppDelegate.m */,
+				2168ABE51946FBDC00AAEE0A /* YPAppDelegate.h */,
+			);
+			name = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,6 +454,7 @@
 				2168AC011946FBDC00AAEE0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2168AC021946FBDC00AAEE0A /* Build configuration list for PBXNativeTarget "UIDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +463,7 @@
 				2168AC041946FBDC00AAEE0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
